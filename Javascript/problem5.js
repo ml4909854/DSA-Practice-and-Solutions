@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    <script>
+
         let n = 5
 for(let i =0; i<=n; i++){
     let bag = " "
@@ -19,6 +11,3 @@ for(let i =0; i<=n; i++){
         }
     }
 }
-    </script>
-</body>
-</html>

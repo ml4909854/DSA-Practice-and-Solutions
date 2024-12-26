@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pyramid pattern</title>
-</head>
-
-<body>
-    <script>
       let n = 5;
 for (let i = 1; i <= n; i++) {
   let bag = ""; // Initialize an empty string for each row
@@ -25,8 +15,3 @@ for (let i = 1; i <= n; i++) {
 
   console.log(bag); // Print the complete row
 }
-
-    </script>
-</body>
-
-</html>
