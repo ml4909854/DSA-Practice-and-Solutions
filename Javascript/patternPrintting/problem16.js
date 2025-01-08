@@ -15,7 +15,7 @@ let columns = 3;
 for (let i = 0; i < rows; i++) {
   let row = " ";
   for (let j = 0; j < columns; j++) {
-   if(j===0 || j===columns-1 || (i+j === columns-1 && i!==0 && i!==rows-1)){
+   if(j===0 || j===columns-1 || (i===j && i!==0 && i!==rows-1)){
     row += array[i][j] + " ";
    }else{
     row+="  "
