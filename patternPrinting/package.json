@@ -1,0 +1,15 @@
+{
+  "name": "patternprinting",
+  "version": "1.0.0",
+  "main": "beginner.js",
+  "scripts": {
+    "start": "nodemon beginner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
