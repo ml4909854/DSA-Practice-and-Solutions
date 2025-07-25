@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "beginner.js",
   "scripts": {
-    "start": "nodemon Intermediate.js"
+    "start": "nodemon advance.js"
   },
   "keywords": [],
   "author": "",

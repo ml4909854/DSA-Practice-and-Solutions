@@ -124,6 +124,6 @@ let array = [
   [13, 14, 15, 16],
 ];
 
-// numberPyramid(array)  // now how i printing number of pyramid
+// numberPyramid(array)  // ngow how i printing number of pyramid
 // triagle(array)
 paindromicPattern(array)
