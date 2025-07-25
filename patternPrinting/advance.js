@@ -132,4 +132,51 @@ let array = [
 // nShapePattern(array)
 // spiralMatrix(array)
 // diagonalPattern(array) // xshapePattern are same
-snakePatter(array)
+// snakePatter(array)
+
+
+function ticTacToe(matrix) {
+  
+  let N = matrix.length
+  
+  // first we have to check all the rows 
+  // in rows the value of the i is constant and value of j
+   // is vary we have to run the loop on rows
+   
+   for(let i = 0 ; i<N ; i++){
+     // we are checking rows that why i write these type
+     if(( matrix[i][0] === matrix[i][1] ) && (matrix[i][1] === matrix[i][2])){
+      console.log(matrix[i][0])
+     }
+   }
+   
+  // now checking for the columns. I am going to check users in the columns
+  
+  for(let i = 0 ; i<N ; i++){
+    // here coloum is constant and row is varry 
+     if((matrix[0][i] === matrix[1][i]) && (matrix[1][i] === matrix[2][i])){
+       console.log(matrix[0][i])
+     }
+  }
+  
+  // check for diagonals
+  for(let i = 0 ; i<N ; i++){
+    if((matrix[0][0] === matrix[1][1]) && (matrix[1][1] === matrix[2][2])){
+      console.log(matrix[0][0])
+    }
+  }
+  
+  // check for secondary diagonal
+  for(let i = 0 ; i<N ; i++){
+    if((matrix[0][2] === matrix[1][1]) && (matrix[1][1] === matrix[2][0])){
+      console.log(matrix[0][2])
+    }
+  }
+  
+  
+   console.log("Tie")
+}
+
+
+
+
